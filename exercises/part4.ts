@@ -34,9 +34,7 @@ class Spacecraft {
 
 // Create an instance of the class here:
 let spaceShuttle = new Spacecraft('Determination', 17500);
-//console.log(spaceShuttle);
 
 // Print two outputs - one for the trip to Mars and one for the trip to the moon.
-
 console.log(`${spaceShuttle.name} takes ${spaceShuttle.getDaysToLocation(kilometersToMars)} days to get to Mars.`);
 console.log(`${spaceShuttle.name} takes ${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} days to get to the Moon.`);

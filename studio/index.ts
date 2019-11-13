@@ -8,3 +8,4 @@
 import {Astronaut} from './astronaut';
 import {Cargo} from './cargo';
 import {Rocket} from './rocket';
+import {Payload} from './Payload';

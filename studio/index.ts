@@ -5,7 +5,7 @@
 // * Code the Astronaut, Cargo, and Rocket classes in new files.
 // * Import the three classes into this file.
 
-import {Astronaut} from './astronaut';
-import {Cargo} from './cargo';
-import {Rocket} from './rocket';
-import {Payload} from './Payload';
+import { Payload } from './Payload';
+import { Astronaut } from './astronaut';
+import { Cargo } from './cargo';
+import { Rocket } from './rocket';

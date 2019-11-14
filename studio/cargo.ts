@@ -1,12 +1,11 @@
-import {Astronaut} from './astronaut';
-import {Cargo} from './cargo';
-import {Rocket} from './rocket';
-import {Payload} from './Payload';
+import { Payload } from './Payload';
+import { Astronaut } from './astronaut';
+import { Rocket } from './rocket';
 
-export class Cargo {
-    let massKg: number;
-    let material: string;
-    constructor(massKg, material) {
+export class Cargo implements Payload {
+    massKg: number;
+    material: string;
+    constructor(massKg: number, material: string) {
         this.material = material;
         this.massKg = massKg;
     }
